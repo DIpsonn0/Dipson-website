@@ -1,0 +1,91 @@
+
+
+.thumbnail{
+  height:190px;
+  width:350px;
+  border-radius: 12px;
+}
+.profile-pic{
+  border-radius:20px;
+  width:40px;
+}
+.title{
+  font-size:16px;
+  font-weight:500;
+  margin-bottom:5px;
+
+  
+}
+.video-detail {
+  font-size:13px;
+  color:rgb(85, 83, 83);
+  font-weight: 500;
+  margin-top:5px;
+
+
+}
+.channel-name{
+  font-size:13px;
+  color:rgb(85, 83, 83);
+  font-weight: 500;
+  
+
+
+}
+.tick{
+  width:13px;
+  border-radius:13px;
+  margin-left:4px;
+
+}
+.tick-button-div{
+  display: flex;
+
+}
+.lower-vertical{
+  display: flex;
+  align-items:start;
+  margin-top:9px;
+}
+.text-div{
+  margin-left:10px;
+}
+.total-box{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap:35px;
+  column-gap: 11px;
+ 
+  background-color: rgb(241, 241, 241);
+ 
+}
+@media (max-width: 1000px) {
+  .total-box{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.upper-vertical{
+  position:relative;
+
+}
+.time-section{
+  position:absolute;
+  right:18px;
+  bottom:12px;
+  background-color: rgb(53, 52, 52);
+  color:white;
+  font-family:Roboto, Arial;
+  font-size:12px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:4px;
+  padding-right:4px;
+  border-radius:4px;
+  z-index: 500;
+
+
+}
+.container{
+  margin-left:20px;
+  margin-top: 30px;;
+}
